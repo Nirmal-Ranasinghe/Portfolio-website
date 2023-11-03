@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirmal Ranasinghe Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/15f4e909aa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+    <!-------------------------nav bar section--------------------------->
+            <nav>
+                <img src="/img/logo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+     <!--------------------------Hero section------------------------------>
+            <div class="Header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Nirmal</span> <br>From Sri Lanka</h1>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------about section-------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/img/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellendus dicta necessitatibus deserunt alias quo! Asperiores natus saepe commodi fuga?
+                        Repellendus modi impedit accusantium? Officia possimus unde quo. Suscipit, sequi quas.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design Web/App interfaces</li>
+                            <li><span>Web DevelepmentX</span><br>Design and develop web sites</li>
+                            <li><span>Graphic Design</span><br>Design Graphics</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - present</span><br>UI/UX Designer at Niro Tech</li>
+                            <li><span>2022 - present</span><br>Web Designer of Niro Tech</li>
+                            <li><span>2021 - present</span><br>Graphic designer of Niro Tech</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-present</span><br>Undergraduate at MIT Kelaniya</li>
+                            <li><span>2023 - present</span><br>Undergraduate at MIT USA</li>
+                            <li><span>2023 - present</span><br>Certificate course of Fullstack developer UOM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------services-------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Hic minus cum porro facilis molestiae in quidem similique quo, esse nam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Hic minus cum porro facilis molestiae in quidem similique quo, esse nam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-pen-nib"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Hic minus cum porro facilis molestiae in quidem similique quo, esse nam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------portfolio section----------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/img/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Aliquid consectetur veritatis ipsam eius consequatur voluptas itaque quia omnis ullam et?
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Aliquid consectetur veritatis ipsam eius consequatur voluptas itaque quia omnis ullam et?
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>E commerce App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Aliquid consectetur veritatis ipsam eius consequatur voluptas itaque quia omnis ullam et?
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!--------------------------Packages------------------------->
+    <div id="packages">
+        <div class="container">
+            <div class="row">
+                <div class="package-col-1">
+                    <h1 class="sub-title">My packages</h1>
+                
+                </div>
+                <div class="package-col-2">
+                    <table class="content-table ">
+                        <thead>
+                            <tr>
+                                <th>Basic</th>
+                                <th>Standerd</th>
+                                <th>Premium</th>
+                                <th>Premium plus</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-title>
+                                    <p class="table-content">Web Design</p>
+                                    <p>$100 upword</p>
+                                </td>
+                                <td data-title>
+                                    <p class="table-content">UI/UX Design</p>
+                                    <p>$80 upword</p>
+                                </td>
+                                <td data-title>
+                                    <p class="table-content">Graphic Design</p>
+                                    <p>$20 upword</p>
+                                </td>
+                                <td data-title>
+                                    <p class="table-content">Combo pack</p>
+                                    <p>$200 upword</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!--------------------------contact-------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>contact@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-phone"></i>+94 777 7777</p>
+                        <div class="social-icons">
+                            <a href="https://twitter.com/" target="_blank"><i
+                                    class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-square-facebook"></i></a>
+                            <a href="https://instagram.com/" target="blank"><i
+                                    class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://linkedin.com/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="/cv/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Messege" rows="6" placeholder="Your Messege"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright © Nirmal. All Right Reserved. <i class="fa-regular fa-registered"></i></p>
+            </div>
+        </div>
+
+
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
